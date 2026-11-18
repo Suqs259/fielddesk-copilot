@@ -1,0 +1,10 @@
+[
+ {"question":"Atlas E101 网关离线","tenant":"acme","expected":["public-01"]},
+ {"question":"E202 令牌失效","tenant":"acme","expected":["public-02","acme-02"]},
+ {"question":"固件升级失败回滚","tenant":"nova","expected":["public-03"]},
+ {"question":"数据延迟队列积压","tenant":"acme","expected":["public-04"]},
+ {"question":"Acme 工厂代理白名单","tenant":"acme","expected":["acme-01"]},
+ {"question":"Nova 专线路由","tenant":"nova","expected":["nova-01"]},
+ {"question":"提交售后工单需要哪些信息","tenant":"nova","expected":["public-05"]},
+ {"question":"INC-2048 令牌轮换","tenant":"acme","expected":["acme-02"]}
+]

@@ -1,0 +1,11 @@
+services:
+  copilot:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      MODEL_MODE: demo
+    volumes:
+      - fielddesk-state:/state
+volumes:
+  fielddesk-state:
