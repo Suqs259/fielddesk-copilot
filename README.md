@@ -6,6 +6,14 @@
 
 无需 API Key 即可运行演示。演示使用资料原文摘录，明确区别于真实 LLM 生成；配置模型后使用同一 LangGraph 流程生成回答。
 
+## 使用效果与攻略
+
+[完整中文使用攻略](docs/usage-guide.md)：安装启动、推荐演示流程、结果解读、真实模型配置及常见问题。
+
+以下为实际运行截图，使用虚构示例数据与演示模式。
+
+![授权资料检索、带引用回答与人工工单草稿](docs/screenshots/support-session.jpg)
+
 ## Quick start
 
 Python 3.10+：
